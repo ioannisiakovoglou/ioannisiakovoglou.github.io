@@ -22,27 +22,23 @@ Below are some examples of my research activities and interests.
 <div class="research-gallery">
 
   <figure>
-    <img src="/images/research/research-1.jpg" alt="Research figure 1">
-    <figcaption><strong>Research topic 1.</strong> A short description of this figure or project.</figcaption>
+    <img src="/images/famillemarkov.png" alt="Research figure 1">
+    <figcaption><strong>Research topic 1.</strong> A Markovian family associated to the suspension flow of the cat map.</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/research/research-2.jpg" alt="Research figure 2">
-    <figcaption><strong>Research topic 2.</strong> A short description of this figure or project.</figcaption>
+    <img src="/images/markovpartitiongeodflow.jpg" alt="Research figure 2">
+    <figcaption><strong>Research topic 2.</strong> A Markov partition of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/research/research-3.jpg" alt="Research figure 3">
-    <figcaption><strong>Research topic 3.</strong> A short description of this figure or project.</figcaption>
+    <img src="/images/BL.png" alt="Research figure 3">
+    <figcaption><strong>Research topic 3.</strong> My vision of the bifoliated plane of a Bonatti-Langevin flow.</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/research/research-4.jpg" alt="Research figure 4">
-    <figcaption><strong>Research topic 4.</strong> A short description of this figure or project.</figcaption>
+    <img src="/images/conicpointneigh.png" alt="Research figure 4">
+    <figcaption><strong>Research topic 4.</strong> The bifoliated plane up to surgeries.</figcaption>
   </figure>
 
 </div>
-
-## Contact
-
-Please feel free to get in touch if you would like to discuss my research or explore possible collaborations.
