@@ -49,7 +49,7 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
     alt="A Bonatti-Langevin flow"
     style="display: block; width: 100%; height: 180px; max-height: 180px; object-fit: contain;"
   >
-  <figcaption style="text-align: center;">
-    My view of the bifoliated plane of a Bonatti-Langevin flow.
+  <figcaption style="text-align: center !important;">
+    <strong>Figure 4.</strong> My view of the bifoliated plane of a Bonatti-Langevin flow.
   </figcaption>
 </figure>
