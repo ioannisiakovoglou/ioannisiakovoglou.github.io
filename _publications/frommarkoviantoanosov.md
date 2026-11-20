@@ -1,5 +1,6 @@
 ---
 title: "From Markovian actions to Anosov flows"
+authors: "François Béguin and Ioannis Iakovoglou"
 collection: publications
 category: preprints
 permalink: /publication/from-markovian-actions-to-anosov-flows
