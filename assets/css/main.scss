@@ -259,3 +259,9 @@ figure.featured-figure figcaption {
 .publication-entry .archive__item-excerpt {
   margin-top: 0.4em;
 }
+
+/* Match publication links to the details text */
+.publication-entry a {
+  font-size: inherit;
+  color: inherit;
+}
