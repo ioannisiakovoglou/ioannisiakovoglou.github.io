@@ -7,4 +7,4 @@ category: preprints
 permalink: /publication/markovian-actions-pseudo-anosov-flows
 date: 2026-11-20
 paperurl: "https://ioannisiakovoglou.github.io/ioannisiakovoglou.github.io./files/markovian-actions-pseudo-anosov-flows.pdf"
-
+---
