@@ -25,11 +25,11 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
     <figcaption><strong> Figure 1.</strong> A Markovian family associated to the suspension flow of the cat map.</figcaption>
   </figure>
 
-  <figure>
+ <figure>
   <img
     src="{{ '/images/markovpartitiongeodflow.jpg' | relative_url }}"
     alt="Figure 2"
-    style="display: block; width: 100%; height: 200px; object-fit: contain;"
+    style="display: block; width: 100%; height: 326px !important; max-height: 326px !important; object-fit: contain;"
   >
   <figcaption><strong> Figure 2.</strong> A Markov partition of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
 </figure>
@@ -38,7 +38,7 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
   <img
     src="{{ '/images/canonicalmarkovian.png' | relative_url }}"
     alt="Figure 3"
-    style="display: block; width: 100%; height: 200px; object-fit: contain;"
+    style="display: block; width: 100%; height: 200px !important; max-height: 200px !important; object-fit: contain;"
   >
   <figcaption><strong>Figure 3.</strong> A canonical Markovian family of a Bonatti-Langevin flow.</figcaption>
 </figure>
