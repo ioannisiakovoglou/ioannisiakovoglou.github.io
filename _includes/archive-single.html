@@ -1,4 +1,8 @@
 {% include base_path %}
+{% assign paper_link_label = "Download Paper" %}
+{% if post.paperurl contains "arxiv.org" %}
+  {% assign paper_link_label = "View paper on arXiv" %}
+{% endif %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
