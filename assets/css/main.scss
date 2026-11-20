@@ -230,16 +230,19 @@ figure.featured-figure figcaption {
 
 /* Compact publications layout */
 .publication-entry {
-  margin-bottom: 1.4em;
+  margin-bottom: 0.8em;
 }
 
 .publication-entry .archive__item-title {
-  margin-bottom: 0.35em;
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  line-height: 1.35;
 }
 
 .publication-arrow {
   color: #888;
-  margin-right: 8px;
+  margin-right: 7px;
   font-size: 0.9em;
 }
 
@@ -247,11 +250,12 @@ figure.featured-figure figcaption {
 .publication-entry .publication-venue,
 .publication-entry .publication-length {
   color: #777;
-  font-size: 0.85em;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  font-size: 0.82em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  line-height: 1.4;
 }
 
 .publication-entry .archive__item-excerpt {
-  margin-top: 0.6em;
+  margin-top: 0.4em;
 }
