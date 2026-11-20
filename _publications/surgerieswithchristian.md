@@ -1,5 +1,6 @@
 ---
 title: "Anosov flows on 3-manifolds: the surgeries and the foliations"
+authors: "Christian Bonatti and Ioannis Iakovoglou"
 collection: publications
 category: manuscripts
 permalink: /publication/anosov-flows
