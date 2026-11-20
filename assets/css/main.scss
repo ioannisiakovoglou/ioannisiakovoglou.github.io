@@ -105,3 +105,9 @@
   text-align: center !important;
   margin: 10px auto 0 !important;
 }
+
+
+/* Image avatar rectangle et pas ellipse */
+.author__avatar img {
+  border-radius: 0 !important;
+}
