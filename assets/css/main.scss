@@ -260,8 +260,9 @@ figure.featured-figure figcaption {
   margin-top: 0.4em;
 }
 
-/* Match publication links to the details text */
+/* Publication links */
 .publication-entry a {
   font-size: inherit;
-  color: inherit;
+  color: #0066cc;
+  text-decoration: none;
 }
