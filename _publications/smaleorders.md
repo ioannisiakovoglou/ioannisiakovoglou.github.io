@@ -2,7 +2,7 @@
 title: "On the realisability of Smale orders"
 authors: "Ioannis Iakovoglou"
 collection: publications
-category: manuscripts
+category: articles
 permalink: /publication/smale-orders
 date: 2022-01-02
 venue: "Fundamenta Mathematicae, 2022, Vol. 258, Issue 3, pp. 291–334"
