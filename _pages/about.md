@@ -31,13 +31,13 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
   </figure>
 
   <figure>
-    <img src="{{ '/images/BL.png' | relative_url }}" alt="Research figure 3">
-    <figcaption><strong>Figure 3.</strong> My vision of the bifoliated plane of a Bonatti-Langevin flow.</figcaption>
+    <img src="{{ '/images/canonicalmarkovian.png' | relative_url }}" alt="Research figure 3">
+    <figcaption><strong>Figure 3.</strong> A canonical Markovian family of a Bonatti-Langevin flow.</figcaption>
   </figure>
 
   <figure>
-    <img src="{{ '/images/conicpointneigh.png' | relative_url }}" alt="Research figure 4">
-    <figcaption><strong>Figure 4.</strong> The bifoliated plane up to surgeries.</figcaption>
+    <img src="{{ '/images/BLgeomtype.png' | relative_url }}" alt="Research figure 4">
+    <figcaption><strong>Figure 4.</strong> A geometric type of a Bonatti Langevin flow.</figcaption>
   </figure>
 
 </div>
