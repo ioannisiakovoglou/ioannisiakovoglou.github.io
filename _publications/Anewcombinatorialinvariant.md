@@ -1,5 +1,6 @@
 ---
 title: "A new combinatorial invariant characterizing Anosov flows on 3-manifolds"
+authors: "Ioannis Iakovoglou"
 collection: publications
 category: manuscripts
 permalink: /publication/new-combinatorial-invariant
