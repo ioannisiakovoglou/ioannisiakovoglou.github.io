@@ -59,11 +59,45 @@
   object-fit: contain !important;
   box-sizing: border-box;
   padding: 6px;
-  background: #fafafa;
+  background: #fafafa !important;
 }
 
 .research-gallery figcaption {
   margin-top: 8px;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+/* Featured figure at the bottom */
+
+.featured-figure {
+  display: block !important;
+  width: 100% !important;
+  max-width: 850px;
+  margin: 25px auto !important;
+  text-align: center !important;
+  background: #fafafa !important;
+  padding: 8px !important;
+  box-sizing: border-box;
+}
+
+.featured-figure img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background: #fafafa !important;
+  box-sizing: border-box;
+}
+
+.featured-figure figcaption {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 10px auto 0 !important;
   font-size: 0.85em;
   line-height: 1.5;
 }
@@ -81,33 +115,20 @@
   }
 }
 
-/* Featured figure */
 
-.research-gallery .featured-figure {
-  grid-column: 1 / -1;
-  width: 100%;
-  margin: 0 auto 25px !important;
+/* Square profile picture */
+
+.author__avatar {
+  border-radius: 0 !important;
+  overflow: visible !important;
 }
 
-.research-gallery .featured-figure img {
-  height: auto !important;
-  max-height: none !important;
-  width: 100% !important;
-  background: #fafafa !important;
-  padding: 8px !important;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-
-.research-gallery .featured-figure figcaption {
-  display: block !important;
-  width: 100% !important;
-  text-align: center !important;
-  margin: 10px auto 0 !important;
-}
-
-
-/* Image avatar rectangle et pas ellipse */
-.author__avatar img {
+.author__avatar img,
+img.author__avatar {
+  width: 150px !important;
+  height: 150px !important;
+  max-width: 100% !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover !important;
   border-radius: 0 !important;
 }
