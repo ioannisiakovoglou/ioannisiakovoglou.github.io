@@ -10,11 +10,6 @@ var addressPoints = [
     -56.1913095
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
     "On the classification of a family of Anosov flows by geometric types<br />Dynamics, Foliations and Geometry III; Creswick, Australia",
     -37.4245857,
     143.8939669
