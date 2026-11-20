@@ -36,30 +36,32 @@
     "layout/archive",
     "layout/sidebar"
 ;
-/* Research gallery */
+/* ========================================
+   RESEARCH GALLERY
+   ======================================== */
 
 .research-gallery {
-  display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 24px !important;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
   max-width: 850px;
   margin: 25px auto;
 }
 
 .research-gallery figure {
-  margin: 0 !important;
+  margin: 0;
   min-width: 0;
 }
 
 .research-gallery img {
-  display: block !important;
-  width: 100% !important;
-  height: 180px !important;
-  max-height: 180px !important;
-  object-fit: contain !important;
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
   box-sizing: border-box;
   padding: 6px;
-  background: #fafafa !important;
+  background: #fafafa;
+  cursor: zoom-in;
 }
 
 .research-gallery figcaption {
@@ -68,47 +70,85 @@
   line-height: 1.5;
 }
 
+/* ========================================
+   FINAL FEATURED FIGURE
+   ======================================== */
+
 .featured-figure {
-  display: block !important;
-  width: 100% !important;
-  max-width: 600px !important;
-  margin: 30px auto !important;
-  padding: 12px !important;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 8px;
   box-sizing: border-box;
-  background: #fafafa !important;
-  text-align: center !important;
+  background: #fafafa;
+  text-align: center;
 }
 
 .featured-figure img {
-  display: block !important;
-  width: 100% !important;
-  height: 320px !important;
-  max-height: 320px !important;
-  object-fit: contain !important;
-  padding: 8px !important;
-  margin: 0 auto !important;
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  padding: 6px;
+  margin: 0 auto;
   box-sizing: border-box;
-  background: #fafafa !important;
+  background: #fafafa;
+  cursor: zoom-in;
 }
 
 .featured-figure figcaption {
-  text-align: center !important;
-  margin: 12px auto 0 !important;
-  width: 100% !important;
-}
-/* Mobile layout */
-
-@media screen and (max-width: 600px) {
-  .research-gallery {
-    grid-template-columns: 1fr !important;
-  }
-
-  .research-gallery img {
-    height: 200px !important;
-    max-height: 200px !important;
-  }
+  text-align: center;
+  margin: 12px auto 0;
+  width: 100%;
+  font-size: 0.85em;
 }
 
+/* ========================================
+   IMAGE LIGHTBOX
+   ======================================== */
+
+.image-lightbox {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  cursor: zoom-out;
+}
+
+.image-lightbox.active {
+  display: flex;
+}
+
+.image-lightbox img {
+  max-width: 90%;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: white;
+  padding: 8px;
+  cursor: default;
+}
+
+.image-lightbox .lightbox-close {
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  color: white;
+  font-size: 36px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* ========================================
+   PROFILE PICTURE
+   ======================================== */
 
 .author__avatar {
   margin-bottom: 20px !important;
@@ -121,8 +161,42 @@
 }
 
 .author__avatar img {
+  display: block;
   width: 150px !important;
   height: 150px !important;
   max-width: 150px !important;
   object-fit: cover !important;
   border-radius: 0 !important;
+  margin: 0 auto 15px !important;
+}
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media screen and (max-width: 600px) {
+  .research-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .research-gallery img {
+    height: 200px;
+  }
+
+  .featured-figure {
+    max-width: 100%;
+  }
+
+  .featured-figure img {
+    height: 200px;
+  }
+
+  .image-lightbox {
+    padding: 12px;
+  }
+
+  .image-lightbox img {
+    max-width: 100%;
+    max-height: 85vh;
+  }
+}
