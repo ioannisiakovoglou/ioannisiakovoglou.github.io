@@ -53,3 +53,50 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
     <strong>Figure 4.</strong> My view of the bifoliated plane of a Bonatti-Langevin flow.
   </figcaption>
 </figure>
+
+
+
+
+<div id="image-lightbox" class="image-lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="Enlarged research figure">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const lightbox = document.getElementById("image-lightbox");
+  const lightboxImage = lightbox.querySelector("img");
+  const closeButton = lightbox.querySelector(".lightbox-close");
+
+  const images = document.querySelectorAll(
+    ".research-gallery img, .featured-figure img"
+  );
+
+  images.forEach(function (image) {
+    image.addEventListener("click", function () {
+      lightboxImage.src = image.src;
+      lightboxImage.alt = image.alt;
+      lightbox.classList.add("active");
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove("active");
+    lightboxImage.src = "";
+  }
+
+  closeButton.addEventListener("click", closeLightbox);
+
+  lightbox.addEventListener("click", function (event) {
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeLightbox();
+    }
+  });
+});
+</script>
