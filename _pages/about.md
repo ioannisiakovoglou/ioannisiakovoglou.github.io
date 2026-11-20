@@ -26,14 +26,22 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
   </figure>
 
   <figure>
-    <img src="{{ '/images/markovpartitiongeodflow.jpg' | relative_url }}" alt="Figure 2">
-    <figcaption><strong> Figure 2.</strong> A Markov partition of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
-  </figure>
+  <img
+    src="{{ '/images/markovpartitiongeodflow.jpg' | relative_url }}"
+    alt="Figure 2"
+    style="display: block; width: 100%; height: 200px; object-fit: contain;"
+  >
+  <figcaption><strong> Figure 2.</strong> A Markov partition of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
+</figure>
 
-  <figure>
-    <img src="{{ '/images/canonicalmarkovian.png' | relative_url }}" alt="Figure 3">
-    <figcaption><strong>Figure 3.</strong> A canonical Markovian family of a Bonatti-Langevin flow.</figcaption>
-  </figure>
+<figure>
+  <img
+    src="{{ '/images/canonicalmarkovian.png' | relative_url }}"
+    alt="Figure 3"
+    style="display: block; width: 100%; height: 200px; object-fit: contain;"
+  >
+  <figcaption><strong>Figure 3.</strong> A canonical Markovian family of a Bonatti-Langevin flow.</figcaption>
+</figure>
 
   <figure>
     <img src="{{ '/images/BLgeomtype.png' | relative_url }}" alt="Figure 4">
