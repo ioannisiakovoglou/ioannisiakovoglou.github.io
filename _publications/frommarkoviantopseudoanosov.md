@@ -9,4 +9,4 @@ date: 2026-11-20
 venue: "Preprint"
 paperurl: "/files/markovian-actions-pseudo-anosov-flows.pdf"
 ---
-[Download the preprint (PDF)](/files/markovian-actions-pseudo-anosov-flows.pdf)
+
