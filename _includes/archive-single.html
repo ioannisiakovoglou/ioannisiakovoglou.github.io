@@ -18,6 +18,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -30,42 +31,93 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
-  {{ title }}
-</h2>
+    <div class="publication-entry">
+
+      <h2 class="archive__item-title" itemprop="headline">
+        <span class="publication-arrow" aria-hidden="true">▸</span>
+        {{ title }}
+      </h2>
 
       {% if post.authors %}
-    <p class="archive__item-authors"><strong>Authors:</strong> {{ post.authors }}</p>
-  {% endif %}
-      {% if post.read_time %}
-        <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+        <p class="archive__item-authors">{{ post.authors }}</p>
       {% endif %}
-   
-  
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
 
-       {% if post.pages %}
-          <p><strong>Length:</strong> {{ post.pages }}</p>
-        {% endif %}
-      
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}<p><strong><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></strong></p></div>
-    {% endif %}
-    
-    {% include /components/citations.html
+      {% if post.read_time %}
+        <p class="page__meta">
+          <i class="fa fa-clock" aria-hidden="true"></i>
+          {% include read-time.html %}
+        </p>
+      {% endif %}
+
+      {% if post.collection == 'teaching' %}
+        <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      {% elsif post.collection == 'publications' %}
+        <p class="publication-venue">
+          Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+        </p>
+      {% elsif post.date %}
+        <p class="page__date">
+          <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
+          <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+        </p>
+      {% endif %}
+
+      {% if post.pages %}
+        <p class="publication-length">Length: {{ post.pages }}</p>
+      {% endif %}
+
+      {% if post.excerpt and site.read_more != 'enabled' %}
+        <div class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify }}
+        </div>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+        <div class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify }}
+          <p><strong><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></strong></p>
+        </div>
+      {% endif %}
+
+      {% include /components/citations.html
         citation=post.citation
         paperurl=post.paperurl
         slidesurl=post.slidesurl
         bibtexurl=post.bibtexurl
-    %}    
+      %}
 
+    </div>
   </article>
 </div>
+
+
+
+One small CSS addition
+To reproduce the grey arrow and compact spacing, add this to the end of assets/css/main.scss:
+
+/* Compact publications layout */
+.publication-entry {
+  margin-bottom: 1.4em;
+}
+
+.publication-entry .archive__item-title {
+  margin-bottom: 0.35em;
+}
+
+.publication-arrow {
+  color: #888;
+  margin-right: 8px;
+  font-size: 0.9em;
+}
+
+.publication-entry .archive__item-authors,
+.publication-entry .publication-venue,
+.publication-entry .publication-length {
+  color: #777;
+  font-size: 0.85em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.publication-entry .archive__item-excerpt {
+  margin-top: 0.6em;
+}
