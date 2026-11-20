@@ -1,5 +1,6 @@
 ---
 title: "Markov partitions for non-transitive expansive flows"
+authors: "Ioannis Iakovoglou"
 collection: publications
 category: manuscripts
 permalink: /publication/markov-partitions
