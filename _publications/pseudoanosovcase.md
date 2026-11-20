@@ -1,6 +1,7 @@
 ---
 title: "Markovian families for pseudo-Anosov flows"
 authors: "Ioannis Iakovoglou"
+pages: "196 pages"
 collection: publications
 category: manuscripts
 permalink: /publication/markovian-families
