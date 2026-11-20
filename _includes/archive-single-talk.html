@@ -40,12 +40,10 @@
         </p>
       {% endif %}
 
-      {% if post.location %}
-        <p class="publication-length">{{ post.location }}</p>
-      {% endif %}
-
-      {% if post.venue %}
-        <p class="archive__item-excerpt">{{ post.venue }}</p>
+      {% if post.venue or post.location %}
+        <p class="publication-venue">
+          {{ post.venue }}{% if post.venue and post.location %} · {% endif %}{{ post.location }}
+        </p>
       {% endif %}
 
       {% if post.excerpt %}
