@@ -1,5 +1,6 @@
 ---
 title: "On the realisability of Smale orders"
+authors: "Ioannis Iakovoglou"
 collection: publications
 category: manuscripts
 permalink: /publication/smale-orders
