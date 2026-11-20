@@ -1,12 +1,11 @@
 ---
 title: "From Markovian actions to Anosov flows"
 authors: "François Béguin and Ioannis Iakovoglou"
-pages: "48 pages"
 collection: publications
 category: preprints
 permalink: /publication/from-markovian-actions-to-anosov-flows
 date: 2026-07-01
-venue: "arXiv:2607.25604"
+venue: "arXiv:2607.25604, 48 pages"
 paperurl: "https://arxiv.org/abs/2607.25604"
 ---
 
