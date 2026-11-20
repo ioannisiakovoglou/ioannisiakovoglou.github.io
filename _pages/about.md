@@ -27,7 +27,7 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
 
 <figure>
   <img src="{{ '/images/markovpartitiongeodflow.jpg' | relative_url }}" alt="Figure 2">
-  <figcaption><strong> Figure 2.</strong> Part of a geometric type of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
+  <figcaption><strong> Figure 2.</strong> A geometric type of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
 </figure>
 
 <figure>
