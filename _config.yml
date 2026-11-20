@@ -22,7 +22,7 @@ repository: "ioannisiakovoglou/ioannisiakovoglou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Mypicture.png"
+  avatar           : "Mypicture.jpg"
   name             : "Ioannis Iakovoglou"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher in Dynamical Systems"
