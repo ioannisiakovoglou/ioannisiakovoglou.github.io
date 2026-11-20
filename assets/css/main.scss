@@ -200,3 +200,30 @@
     max-height: 85vh;
   }
 }
+
+figure.featured-figure {
+  width: 100% !important;
+  max-width: 450px !important;
+  margin: 25px auto !important;
+  padding: 8px !important;
+  box-sizing: border-box !important;
+  background: #fafafa !important;
+  text-align: center !important;
+}
+
+figure.featured-figure img {
+  display: block !important;
+  width: 100% !important;
+  height: 200px !important;
+  max-height: 200px !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  padding: 6px !important;
+  box-sizing: border-box !important;
+  background: #fafafa !important;
+}
+
+figure.featured-figure figcaption {
+  text-align: center !important;
+  margin-top: 10px !important;
+}
