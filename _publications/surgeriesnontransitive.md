@@ -1,5 +1,6 @@
 ---
 title: "Dehn-Fried surgeries on non-transitive expansive flows"
+authors: "Ioannis Iakovoglou"
 collection: publications
 category: manuscripts
 permalink: /publication/dehn-fried-surgeries
