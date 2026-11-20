@@ -21,23 +21,32 @@ My research focuses on the study of three dimensional Anosov and pseudo-Anosov f
 <div class="research-gallery">
 
   <figure>
-    <img src="{{ '/images/famillemarkov.png' | relative_url }}" alt="Research figure 1">
+    <img src="{{ '/images/famillemarkov.png' | relative_url }}" alt="Figure 1">
     <figcaption><strong> Figure 1.</strong> A Markovian family associated to the suspension flow of the cat map.</figcaption>
   </figure>
 
   <figure>
-    <img src="{{ '/images/markovpartitiongeodflow.jpg' | relative_url }}" alt="Research figure 2">
+    <img src="{{ '/images/markovpartitiongeodflow.jpg' | relative_url }}" alt="Figure 2">
     <figcaption><strong> Figure 2.</strong> A Markov partition of the geodesic flow on a genus 2 surface (with C. Bonatti).</figcaption>
   </figure>
 
   <figure>
-    <img src="{{ '/images/canonicalmarkovian.png' | relative_url }}" alt="Research figure 3">
+    <img src="{{ '/images/canonicalmarkovian.png' | relative_url }}" alt="Figure 3">
     <figcaption><strong>Figure 3.</strong> A canonical Markovian family of a Bonatti-Langevin flow.</figcaption>
   </figure>
 
   <figure>
-    <img src="{{ '/images/BLgeomtype.png' | relative_url }}" alt="Research figure 4">
+    <img src="{{ '/images/BLgeomtype.png' | relative_url }}" alt="Figure 4">
     <figcaption><strong>Figure 4.</strong> A geometric type of a Bonatti Langevin flow.</figcaption>
   </figure>
 
 </div>
+
+
+<figure class="featured-figure">
+  <img src="{{ '/images/BL.png' | relative_url }}"
+       alt="A Bonatti-Langevin flow">
+  <figcaption>
+    My view of the bifoliated plane of a Bonatti-Langevin flow. 
+  </figcaption>
+</figure>
