@@ -3,7 +3,6 @@ title: "Dehn-Fried surgeries on non-transitive expansive flows"
 collection: publications
 category: manuscripts
 permalink: /publication/dehn-fried-surgeries
-excerpt: "Dehn-Fried surgeries on non-transitive expansive flows."
 date: 2024-01-01
 venue: "Annales de la Faculté des Sciences de Toulouse (accepted)"
 paperurl: "https://arxiv.org/abs/2410.21470"
