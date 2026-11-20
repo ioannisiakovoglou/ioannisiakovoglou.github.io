@@ -1,22 +1,22 @@
 var addressPoints = [
   [
+    "On the 3-manifolds supporting transitive Anosov flows<br />Dynamique et g\u00e9om\u00e9trie en dimension 1, 2 et 3 \u2013 CIRM; Marseille, France",
+    43.2963986,
+    5.3777888
+  ],
+  [
+    "Classifying Anosov flows in dimension 3 by geometric types<br />Seminario de Sistemas Din\u00e1micos \u2013 Centro de Matem\u00e1tica; Montevideo, Uruguay",
+    -34.9058916,
+    -56.1913095
+  ],
+  [
     "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
     37.8708393,
     -122.272863
   ],
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536923,
-    -118.2427676
+    "On the classification of a family of Anosov flows by geometric types<br />Dynamics, Foliations and Geometry III; Creswick, Australia",
+    -37.4245857,
+    143.8939669
   ]
 ];
