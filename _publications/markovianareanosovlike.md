@@ -1,6 +1,7 @@
 ---
 title: "Markovian actions are Anosov-like"
 authors: "Ioannis Iakovoglou"
+pages: "43 pages"
 collection: publications
 category: preprints
 permalink: /publication/markovian-actions-are-anosov-like
