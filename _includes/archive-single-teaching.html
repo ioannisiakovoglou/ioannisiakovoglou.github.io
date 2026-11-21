@@ -22,9 +22,11 @@
         <p class="teaching-detail">{{ period }}</p>
       {% endfor %}
 
-      {% if post.description %}
-        <p class="teaching-detail">{{ post.description | markdownify }}</p>
-      {% endif %}
+     {% if post.description %}
+      <div class="teaching-detail">
+      {{ post.description | markdownify }}
+      </div>
+    {% endif %}
 
     </div>
 
