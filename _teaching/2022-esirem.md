@@ -1,9 +1,7 @@
 ---
-title: "Teaching at ESIREM, Dijon"
+title: "Teaching Assistant at ESIREM, Dijon"
 collection: teaching
-type: "Teaching Assistant"
 date: 2022-09-01
-institution: "ESIREM"
 periods:
   - "2022–2023 · Spring: Analysis II (1st year of BSc)"
   - "2022–2023 · Fall: Probability and Statistics (3rd year of BSc)"
