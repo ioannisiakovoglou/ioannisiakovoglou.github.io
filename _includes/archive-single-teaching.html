@@ -1,0 +1,32 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <div class="publication-entry">
+
+      <h2 class="archive__item-title" itemprop="headline">
+        <span class="publication-arrow" aria-hidden="true">▸</span>
+        {{ post.title }}
+      </h2>
+
+      <p class="publication-venue">
+        {{ post.type }} · {{ post.date | date: "%Y" }}
+      </p>
+
+      {% if post.institution %}
+        <p class="publication-venue">{{ post.institution }}</p>
+      {% endif %}
+
+      {% if post.semester %}
+        <p class="publication-venue">{{ post.semester }}</p>
+      {% endif %}
+
+      {% if post.description %}
+        <p class="publication-venue">{{ post.description }}</p>
+      {% endif %}
+
+    </div>
+
+  </article>
+</div>
