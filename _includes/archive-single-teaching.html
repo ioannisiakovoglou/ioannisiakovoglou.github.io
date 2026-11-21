@@ -23,7 +23,7 @@
       {% endfor %}
 
       {% if post.description %}
-        <p class="teaching-detail">{{ post.description }}</p>
+        <p class="teaching-detail">{{ post.description | markdownify }}</p>
       {% endif %}
 
     </div>
