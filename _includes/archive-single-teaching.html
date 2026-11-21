@@ -23,9 +23,9 @@
       {% endfor %}
 
      {% if post.description %}
-      <div class="teaching-detail">
-      {{ post.description | markdownify }}
-      </div>
+     <div class="teaching-detail">
+    {{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}
+    </div>
     {% endif %}
 
     </div>
