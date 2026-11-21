@@ -10,20 +10,20 @@
         {{ post.title }}
       </h2>
 
-      <p class="publication-venue">
-        {{ post.type }} · {{ post.date | date: "%Y" }}
-      </p>
+      {% if post.type %}
+        <p class="teaching-detail">{{ post.type }}</p>
+      {% endif %}
 
       {% if post.institution %}
-        <p class="publication-venue">{{ post.institution }}</p>
+        <p class="teaching-detail">{{ post.institution }}</p>
       {% endif %}
 
-      {% if post.semester %}
-        <p class="publication-venue">{{ post.semester }}</p>
-      {% endif %}
+      {% for period in post.periods %}
+        <p class="teaching-detail">{{ period }}</p>
+      {% endfor %}
 
       {% if post.description %}
-        <p class="publication-venue">{{ post.description }}</p>
+        <p class="teaching-detail">{{ post.description }}</p>
       {% endif %}
 
     </div>
