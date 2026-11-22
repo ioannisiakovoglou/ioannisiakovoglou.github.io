@@ -1,10 +1,8 @@
 ---
-title: "Images sonores"
+title: "Images sonores, 2022"
 collection: divulgation
 category: Participation to events
 date: 2022-07-19
 excerpt: >
-  Part of the organization team of the scientific dissemination
-  and artistic event *Images sonores* [Sonorous images].
-  19–20 July 2022.
+ An amazing annual event in Côte-d'Or combining scientific outreach, music concerts and video projections.
 ---
