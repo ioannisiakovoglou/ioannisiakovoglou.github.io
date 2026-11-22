@@ -284,3 +284,9 @@ figure.featured-figure figcaption {
 .teaching-entries .list__item {
   margin-bottom: 1.2em;
 }
+/* Hide mobile menu toggle on desktop */
+@media screen and (min-width: 925px) {
+  .greedy-nav__toggle {
+    display: none !important;
+  }
+}
