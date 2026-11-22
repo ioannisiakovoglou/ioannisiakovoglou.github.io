@@ -1,6 +1,7 @@
 ---
 title: "Images sonores"
 collection: divulgation
+category: Participation to events
 date: 2022-07-19
 excerpt: >
   Part of the organization team of the scientific dissemination
