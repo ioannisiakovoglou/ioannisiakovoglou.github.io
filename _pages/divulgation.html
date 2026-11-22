@@ -7,6 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.divulgation reversed %}
-  {% include archive-single-divulgation.html %}
+{% assign categories = "Talks|Participation to events|Publications" | split: "|" %}
+
+{% for category in categories %}
+  {% assign category_posts = site.divulgation | where: "category", category | sort: "date" | reverse %}
+
+  {% if category_posts.size > 0 %}
+    <h2>{{ category }}</h2>
+    <hr />
+
+    {% for post in category_posts %}
+      {% include archive-single-divulgation.html %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
