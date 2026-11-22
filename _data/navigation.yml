@@ -23,5 +23,5 @@ main:
   - title: "Divulgation"
     url: /divulgation/
 
-  - title: "Ce que j'aime"
-    url: /year-archive/
+ # - title: "Some thoughts"
+#   url: /year-archive/
