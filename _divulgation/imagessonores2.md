@@ -1,6 +1,7 @@
 ---
 title: "Images sonores"
 collection: divulgation
+category: Participation to events
 date: 2021-07-21
 excerpt: >
   Participation in the scientific dissemination and artistic event
