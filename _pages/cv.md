@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Education"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,27 +9,49 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Doctoral and Postdoctoral Studies
 ======
-* Ph.D at University of Burgundy under the supervision of Christian Bonatti
-* 3rd year of B.S. and M.S. in Ecole Normale Supérieure de Lyon
-* 2nd year B.S. at Lycée Louis Le Grand
-* 1st year B.S. Paris Cité
 
-Doctoral and Postdoctoral studies
+* **2025–2027: Postdoctoral Research Fellow**
+  * Université Sorbonne Paris Nord, France
+  * Supervisor: François Béguin
+
+* **2024–2025: Postdoctoral Research Fellow**
+  * Sorbonne Université, Paris, France
+  * Supervisor: Pierre Berger
+
+* **2023–2024: Postdoctoral Research Fellow**
+  * Université Sorbonne Paris Nord, France
+  * Supervisor: François Béguin
+
+* **2020–2023: Ph.D. in Mathematics**
+  * Université de Bourgogne, Dijon, France
+  * Supervisor: Christian Bonatti
+
+Master's and Bachelor's Studies
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **April – July 2020: Master's Research Internship**
+  * Université Grenoble Alpes, Grenoble, France
+  * Within the fourth year of the ENS de Lyon programme
+  * Supervisor: Pierre Dehornoy
+  * Subject: Birkhoff Sections of Genus One for Algebraic Anosov Flows
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **September 2019 – March 2020: Master's Research Internship**
+  * Université de Bourgogne, Dijon, France
+  * Within the fourth year of the ENS de Lyon programme
+  * Supervisor: Christian Bonatti
+  * Subject: Realisability of Smale Orders
+
+* **2017–2019: Master's Degree in Mathematics**
+  * ENS de Lyon, Lyon, France
+  * Specialisation: Geometry and Group Actions
+
+* **2016–2017: Bachelor's Degree in Mathematics**
+  * ENS de Lyon, Lyon, France
+
+* **2015–2016: Second Year of Bachelor's Studies in Mathematics**
+  * Lycée Louis le Grand
+
+* **2014–2015: First Year of Bachelor's Studies in Mathematics**
+  * Université Paris Diderot (Paris 7), Paris, France
