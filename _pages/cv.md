@@ -26,6 +26,7 @@ Doctoral and Postdoctoral Studies
 
 * **2020–2023: Ph.D. in Mathematics**
   * Université de Bourgogne, Dijon, France
+  * Subject: On the classification of Anosov flows in dimension 3 up to Dehn-Goodman-Fried surgeries
   * Supervisor: Christian Bonatti
 
 Master's and Bachelor's Studies
@@ -55,3 +56,5 @@ Master's and Bachelor's Studies
 
 * **2014–2015: First Year of Bachelor's Studies in Mathematics**
   * Université Paris Diderot (Paris 7), Paris, France
+
+<p>For more information, check out my <a href="/files/CV.pdf">CV</a>.</p>
