@@ -1,7 +1,7 @@
-
 ---
 title: "Fête des sciences"
 collection: divulgation
+category: Participation to events
 date: 2021-10-02
 excerpt: >
   Participation in the scientific dissemination event
