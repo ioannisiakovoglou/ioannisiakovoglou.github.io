@@ -271,10 +271,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _divulgation
   - scope:
       path: ""
-      type: portfolio
+      type: divulgation
     values:
       layout: single
       author_profile: true
