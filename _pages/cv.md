@@ -31,13 +31,13 @@ Doctoral and Postdoctoral Studies
 Master's and Bachelor's Studies
 ======
 
-* **April – July 2020: Master's Research Internship**
+* **April – July 2020: Research Internship**
   * Université Grenoble Alpes, Grenoble, France
   * Within the fourth year of the ENS de Lyon programme
   * Supervisor: Pierre Dehornoy
   * Subject: Birkhoff Sections of Genus One for Algebraic Anosov Flows
 
-* **September 2019 – March 2020: Master's Research Internship**
+* **September 2019 – March 2020: Research Internship**
   * Université de Bourgogne, Dijon, France
   * Within the fourth year of the ENS de Lyon programme
   * Supervisor: Christian Bonatti
