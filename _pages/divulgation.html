@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign categories = "Talks|Participation to events|Publications" | split: "|" %}
+{% assign categories = "Publications|Talks|Participation to events" | split: "|" %}
 
 {% for category in categories %}
   {% assign category_posts = site.divulgation | where: "category", category | sort: "date" | reverse %}
