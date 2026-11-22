@@ -52,7 +52,7 @@ Master's and Bachelor's Studies
   * ENS de Lyon, Lyon, France
 
 * **2015–2016: Second Year of Bachelor's Studies in Mathematics**
-  * Lycée Louis le Grand
+  * Lycée Louis le Grand, Paris, France
 
 * **2014–2015: First Year of Bachelor's Studies in Mathematics**
   * Université Paris Diderot (Paris 7), Paris, France
