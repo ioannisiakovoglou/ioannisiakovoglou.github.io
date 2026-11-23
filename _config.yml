@@ -231,7 +231,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
- year-archive:
+  year-archive:
     output: true
     permalink: /:collection/:path/
 
