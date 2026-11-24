@@ -290,3 +290,17 @@ figure.featured-figure figcaption {
     display: none !important;
   }
 }
+
+/* Keep Teaching, Talks and Publications titles looking like plain text */
+
+.teaching-entries .archive__item-title,
+.publication-entry .archive__item-title {
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+.teaching-entries .archive__item-title:hover,
+.publication-entry .archive__item-title:hover {
+  cursor: default !important;
+  text-decoration: none !important;
+}
